@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\ElectricityLoging.BlazorWeb.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj",
+        "projectName": "ElectricityLoging.BlazorWeb.Client",
+        "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj",
+        "packagesPath": "C:\\Users\\Justinas\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Justinas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj": {
+                "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\ElectricityLoging.BlazorWeb.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\ElectricityLoging.BlazorWeb.Server.csproj",
+        "projectName": "ElectricityLoging.BlazorWeb.Server",
+        "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\ElectricityLoging.BlazorWeb.Server.csproj",
+        "packagesPath": "C:\\Users\\Justinas\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Justinas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj": {
+                "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj"
+              },
+              "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj": {
+                "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj",
+        "projectName": "ElectricityLoging.BlazorWeb.Shared",
+        "projectPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\ElectricityLoging.BlazorWeb.Shared.csproj",
+        "packagesPath": "C:\\Users\\Justinas\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Justinas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

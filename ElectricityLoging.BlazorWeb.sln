@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Server", "ElectricityLoging.BlazorWeb\Server\ElectricityLoging.BlazorWeb.Server.csproj", "{E185EF25-D1D0-4EC6-B243-8B2133E1A905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Client", "ElectricityLoging.BlazorWeb\Client\ElectricityLoging.BlazorWeb.Client.csproj", "{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Shared", "ElectricityLoging.BlazorWeb\Shared\ElectricityLoging.BlazorWeb.Shared.csproj", "{AB1CF440-52CA-49AE-B45D-998CD53895B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E185EF25-D1D0-4EC6-B243-8B2133E1A905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E185EF25-D1D0-4EC6-B243-8B2133E1A905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E185EF25-D1D0-4EC6-B243-8B2133E1A905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E185EF25-D1D0-4EC6-B243-8B2133E1A905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1CF440-52CA-49AE-B45D-998CD53895B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1CF440-52CA-49AE-B45D-998CD53895B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1CF440-52CA-49AE-B45D-998CD53895B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1CF440-52CA-49AE-B45D-998CD53895B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44823095-D40C-4C14-B386-F27C0831F2D2}
+	EndGlobalSection
+EndGlobal
