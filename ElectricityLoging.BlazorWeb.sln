@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Server", "ElectricityLoging.BlazorWeb\Server\ElectricityLoging.BlazorWeb.Server.csproj", "{E185EF25-D1D0-4EC6-B243-8B2133E1A905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.BlazorWeb.Server", "ElectricityLoging.BlazorWeb\Server\ElectricityLoging.BlazorWeb.Server.csproj", "{E185EF25-D1D0-4EC6-B243-8B2133E1A905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Client", "ElectricityLoging.BlazorWeb\Client\ElectricityLoging.BlazorWeb.Client.csproj", "{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.BlazorWeb.Client", "ElectricityLoging.BlazorWeb\Client\ElectricityLoging.BlazorWeb.Client.csproj", "{194DD8EC-58D1-4A2F-95FD-8E89C007EFCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.BlazorWeb.Shared", "ElectricityLoging.BlazorWeb\Shared\ElectricityLoging.BlazorWeb.Shared.csproj", "{AB1CF440-52CA-49AE-B45D-998CD53895B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.BlazorWeb.Shared", "ElectricityLoging.BlazorWeb\Shared\ElectricityLoging.BlazorWeb.Shared.csproj", "{AB1CF440-52CA-49AE-B45D-998CD53895B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,53 @@
+﻿@page "/payment"
+
+<h3>Payment</h3>
+
+<EditForm Model="recordModel">
+    <div class="col-12">
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Payment year</label>
+                <InputDate class="form-control" @bind-Value="@recordModel.PaymentDay"></InputDate>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Payment month</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.ElectricityPrice"></InputNumber>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Payment Day</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.LastMeterNumber"></InputNumber>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Amount payed</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.CurrentMeterNumber"></InputNumber>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Amount payed</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.Difference"></InputNumber>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="col-md-12 form-group">
+                <label class="form-label">Amount payed</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.Debt"></InputNumber>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Amount payed</label>
+            <InputNumber class="form-control" @bind-Value="@recordModel.AmountPayed"></InputNumber>
+        </div>
+    </div>
+
+</EditForm>
+
+@code {
+
+}
