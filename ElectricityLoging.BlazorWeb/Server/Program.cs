@@ -1,11 +1,15 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using ElectricityLoging.EF.Entities;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddDbContextFactory<AppDbContext>(opt=>opt.UseSqlServer("server=localhost\\SQLEXPRESS;Database=ElectricityLoging;trusted_connection=true"));
 
 var app = builder.Build();
 
