@@ -1,0 +1,32 @@
+﻿@page "/listOfRecords"
+
+<div class="col-6">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Electricity amount</th>
+                <th>Payment amount</th>
+                <th>Dept</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var record in records)
+            {
+                <tr>
+                    <td>@record.Id</td>
+                    <td>@record.DateCreated.ToString("yyyy-MM-dd")</td>
+                    <td>@record.Difference</td>
+                    <td>@record.AmountPayed</td>
+                    <td>@record.Debt</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
+@code {
+
+}

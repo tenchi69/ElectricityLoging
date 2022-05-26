@@ -16,13 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\ElectricityLoging.Core\ElectricityLoging.Core.csproj" />
     <ProjectReference Include="..\..\ElectricityLoging.EF\ElectricityLoging.EF.csproj" />
     <ProjectReference Include="..\Client\ElectricityLoging.BlazorWeb.Client.csproj" />
     <ProjectReference Include="..\Shared\ElectricityLoging.BlazorWeb.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 

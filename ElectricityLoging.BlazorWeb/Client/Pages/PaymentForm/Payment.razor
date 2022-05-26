@@ -1,52 +1,57 @@
 ﻿@page "/payment"
 
 <h3>Payment</h3>
-
-<EditForm Model="recordModel">
-    <div class="col-12">
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Payment year</label>
-                <InputDate class="form-control" @bind-Value="@recordModel.PaymentDay"></InputDate>
+@if (recordModel != null)
+{
+    <EditForm Model="recordModel" OnValidSubmit="Save">
+        <div class="col-12">
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Payment day</label>
+                    <InputDate class="form-control" @bind-Value="@recordModel.PaymentDay"></InputDate>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Electricity price</label>
+                    <InputNumber class="form-control" @bind-Value="@recordModel.ElectricityPrice"></InputNumber>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Last meter Number</label>
+                    <InputNumber readonly class="form-control" @bind-Value="@recordModel.LastMeterNumber"></InputNumber>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Current Meter Number</label>
+                    <InputNumber class="form-control" @bind-Value="@recordModel.CurrentMeterNumber"></InputNumber>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Difference</label>
+                    <InputNumber readonly class="form-control" @bind-Value="@recordModel.Difference"></InputNumber>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12 form-group">
+                    <label class="form-label">Debt</label>
+                    <InputNumber readonly class="form-control" @bind-Value="@recordModel.Debt"></InputNumber>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Amount Payed</label>
+                <InputNumber class="form-control" @bind-Value="@recordModel.AmountPayed"></InputNumber>
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Payment month</label>
-                <InputNumber class="form-control" @bind-Value="@recordModel.ElectricityPrice"></InputNumber>
-            </div>
+        <div class="col-3 ">
+            <button class="btn btn-success">Save</button>
+            <button type="button" class="btn btn-secondary" @onclick="GetById">GetPreviousRecord</button>
         </div>
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Payment Day</label>
-                <InputNumber class="form-control" @bind-Value="@recordModel.LastMeterNumber"></InputNumber>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Amount payed</label>
-                <InputNumber class="form-control" @bind-Value="@recordModel.CurrentMeterNumber"></InputNumber>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Amount payed</label>
-                <InputNumber class="form-control" @bind-Value="@recordModel.Difference"></InputNumber>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="col-md-12 form-group">
-                <label class="form-label">Amount payed</label>
-                <InputNumber class="form-control" @bind-Value="@recordModel.Debt"></InputNumber>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <label class="form-label">Amount payed</label>
-            <InputNumber class="form-control" @bind-Value="@recordModel.AmountPayed"></InputNumber>
-        </div>
-    </div>
-
-</EditForm>
+    </EditForm>
+}
 
 @code {
 

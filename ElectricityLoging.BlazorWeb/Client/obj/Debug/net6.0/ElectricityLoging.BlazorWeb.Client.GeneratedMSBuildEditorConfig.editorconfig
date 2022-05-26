@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/ElectricityLoging.BlazorWeb/ElectricityLoging.BlazorWeb/Client/Pages/ListOfPayments/ListOfPayments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdE9mUGF5bWVudHNcTGlzdE9mUGF5bWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/ElectricityLoging.BlazorWeb/ElectricityLoging.BlazorWeb/Client/Pages/PaymentForm/Payment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudEZvcm1cUGF5bWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

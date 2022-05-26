@@ -14,8 +14,26 @@ namespace ElectricityLoging.BlazorWeb.Shared.Models
         public decimal ElectricityPrice { get; set; }
         public int LastMeterNumber { get; set; }
         public int CurrentMeterNumber { get; set; }
-        public int Difference { get; set; }
-        public decimal Debt { get; set; }
+        public int Difference
+        {
+            get
+            {
+                return CurrentMeterNumber == 0 ? 0 : CurrentMeterNumber - LastMeterNumber;
+            }
+            set
+            {
+            }
+        }
+        public decimal Debt
+        {
+            get
+            {
+                return Difference * ElectricityPrice;
+            }
+            set
+            {
+            }
+        }
         public decimal AmountPayed { get; set; }
 
         public PaymentFormWebModel()

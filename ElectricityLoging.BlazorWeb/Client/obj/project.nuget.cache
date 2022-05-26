@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HHuPd+JhVvBQpoJbg0E8Bp5kYdx0MfdPHSofh04wO1d2ACWYX6bNudnZsPZnWjzBP6rxDDgtd0n0eqlmK0rV1g==",
+  "dgSpecHash": "Rt0b0oKAbxP3GQ7pfcbQnQsGmE2NgxuVGoXSrqUCmZvXxF0d+F1/z7jv+EckovA5FTGmfVQiRBaVmT4bZHA6tg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Client\\ElectricityLoging.BlazorWeb.Client.csproj",
   "expectedPackageFiles": [
@@ -28,11 +28,13 @@
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.0\\microsoft.jsinterop.webassembly.6.0.0.nupkg.sha512",
+    "C:\\Users\\Justinas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Justinas\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Justinas\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }
