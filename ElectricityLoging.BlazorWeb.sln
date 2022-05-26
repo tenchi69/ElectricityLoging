@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.BlazorWeb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.BlazorWeb.Shared", "ElectricityLoging.BlazorWeb\Shared\ElectricityLoging.BlazorWeb.Shared.csproj", "{AB1CF440-52CA-49AE-B45D-998CD53895B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityLoging.EF", "ElectricityLoging.EF\ElectricityLoging.EF.csproj", "{C16A1320-7E22-4627-9B6D-B7C362AC0979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.EF", "ElectricityLoging.EF\ElectricityLoging.EF.csproj", "{C16A1320-7E22-4627-9B6D-B7C362AC0979}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectricityLoging.Core", "ElectricityLoging.Core\ElectricityLoging.Core.csproj", "{1AD35637-99EA-4304-A26F-54C3DC26813E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C16A1320-7E22-4627-9B6D-B7C362AC0979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C16A1320-7E22-4627-9B6D-B7C362AC0979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C16A1320-7E22-4627-9B6D-B7C362AC0979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD35637-99EA-4304-A26F-54C3DC26813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD35637-99EA-4304-A26F-54C3DC26813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD35637-99EA-4304-A26F-54C3DC26813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD35637-99EA-4304-A26F-54C3DC26813E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+g2f3WoPwLIkBTdHlj49PRz/4rMNLNW1Ex/h7oKO62VNpm3YzfD7zCTGXShzBFeGSPSerne60gTP2dHMXD+XEA==",
+  "dgSpecHash": "h/6WCCz80XZIBsF3lr9URr8MJ2s95afOCjhOHt3FEEHsHo705QZqu8VTfx60CF9NIXOt38vubVTnHwuo7z+UdQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ElectricityLoging.BlazorWeb\\ElectricityLoging.BlazorWeb\\Server\\ElectricityLoging.BlazorWeb.Server.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,7 @@
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Justinas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Justinas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

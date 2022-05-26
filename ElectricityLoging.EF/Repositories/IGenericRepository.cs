@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElectricityLoging.EF.Repositories
 {
-    internal interface IGenericRepository<T>
+    public interface IGenericRepository<T>
     {
         public T Get(int id);
         public void Save(T entity);
